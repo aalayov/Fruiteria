@@ -244,7 +244,7 @@ function Fruiteria() {
                 )}
             </div>
             <div>
-                <p>Total Compra: {totalCompra}€</p>
+                <p>Total Compra: {totalCompra.toFixed(2)}€</p>
             </div>
             <div></div>
         </>
